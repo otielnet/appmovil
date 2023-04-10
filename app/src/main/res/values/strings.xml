@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gescom Móvil</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuraciones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Exportación</string>
+    <string name="title_activity_form_export2">form_export2</string>
+    <string name="title_activity_main_l">MainActivity_l</string>
+    <string name="title_activity_details_client">DetailsActivityClient</string>
+    <string name="title_activity_detalle_cliente">DetalleCliente</string>
+    <string name="ip">http://186.4.186.102:8089</string>
+</resources>

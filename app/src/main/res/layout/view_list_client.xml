@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/imagen"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="false"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_toRightOf="@+id/imagen"
+        android:layout_marginBottom="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cédula:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtcedula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1094899"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombres:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtnombres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cristian David Henao"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total deuda:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtdeuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cantidad de obligaciones:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtobigaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/idImagen"
+            android:layout_marginTop="11dp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageFlecha"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/flech" />
+
+
+</RelativeLayout>

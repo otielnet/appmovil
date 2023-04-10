@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:title="Comunicación">
+        <item android:title="Sincronización de Datos">
+        <item
+           android:id="@+id/nav_inicio"
+           android:icon="@drawable/inicio"
+           android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_sincronizarDatos"
+            android:icon="@drawable/exportar"
+            android:title="Exportar Datos Masivas" />
+        <item
+            android:id="@+id/nav_importar"
+            android:icon="@drawable/importar"
+            android:title="Importar Datos Nuevos" />
+        <item
+            android:id="@+id/nav_listClient"
+            android:icon="@drawable/listado"
+            android:title="Listado de Clientes" />
+        <item
+            android:id="@+id/nav_listClientRe"
+            android:icon="@drawable/route"
+            android:title="Listado de Seguimientos" />
+         <item
+            android:id="@+id/nav_busqueda"
+            android:icon="@drawable/busqueda"
+            android:title="Busqueda por cliente" />
+
+        </item>
+    </group>
+
+    <item android:title="Comunicación">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Notificación" />
+        </menu>
+    </item>
+
+</menu>

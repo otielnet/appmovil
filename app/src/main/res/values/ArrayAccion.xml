@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opcionesTipoGestion">
+        <item>GESTIONES GESCOM</item>
+        <item>OPERATIVO YANBAL</item>
+        <item>GESTIONES DINERS</item>
+        <item>MUTUALISTA PICHINCHA</item>
+    </string-array>
+
+    <string-array name="opcionesDiners2">
+        <item>Refinancia</item>
+        <item>Ofrecimiento al Corte</item>
+        <item>Contacto sin Arreglo Mediato</item>
+        <item>Mensaje a Tercero</item>
+        <item>Cont. Sin Arreglo Definitivo</item>
+        <item>ILOCALIZABLE</item>
+        <item>Sin Arreglo Cliente</item>
+    </string-array>
+
+    <string-array name="opcionesDiners2Refinancia">
+        <item>Refinancia</item>
+    </string-array>
+    <string-array name="opcionesDiners2Ofrecimiento">
+        <item>Ofrecimiento de Pago Total</item>
+        <item>Ofrecimiento de Arreglo</item>
+    </string-array>
+    <string-array name="opcionesDiners2Contactosin">
+        <item>Ofrec.Pago Parcial Dentro Cort</item>
+        <item>Ofrec.Pago Despues del corte</item>
+        <item>No Concreta</item>
+    </string-array>
+    <string-array name="opcionesDiners2MensajeTercero">
+        <item>Esposa (o)</item>
+        <item>Hijos / Padres</item>
+        <item>Familiares</item>
+        <item>Secretaria / Asistente</item>
+    </string-array>
+    <string-array name="opcionesDiners2ContSinArreglo">
+        <item>Sin Arreglo Domicilio</item>
+    </string-array>
+    <string-array name="opcionesDiners2Ilocalizable">
+        <item>Ilocalizable Domicilio</item>
+    </string-array>
+    <string-array name="opcionesDiners2SinArregloCliente">
+        <item>Sin Arreglo Cliente</item>
+    </string-array>
+
+
+    <string-array name="opcionesGestionMutualista">
+        <item>CONTACTO DIRECTO</item>
+        <item>CONTACTO INDIRECTO</item>
+        <item>VUELTA VISITA</item>
+        <item>VIRTUAL</item>
+        <item>REZAGO</item>
+    </string-array>
+    <string-array name="opcionesMutualistaContactoDirecto">
+        <item>NEGATIVA AL PAGO (TERRENO)</item>
+        <item>SOBREENDEUDAMIENTO SIN CAPACIDAD DE PAGO (TERRENO)</item>
+        <item>DEUDOR NO RECONOCE DEUDA (TERRENO)</item>
+        <item>NO LLEGA ESTADO DE CUENTA (TERRENO)</item>
+        <item>YA CANCELO (TERRENO)</item>
+        <item>COMPROMISO DE PAGO TOTAL (TERRENO)</item>
+        <item>COMPROMISO DE ABONO (TERRENO)</item>
+        <item>SOLICITA REFINANCIAMIENTO (TERRENO)</item>
+        <item>APLICACION SEGUROS (TERRENO)</item>
+        <item>POSTERGA PAGO (TERRENO)</item>
+        <item>DEUDA ES DE TERCERO (TERRENO)</item>
+        <item>NEGATIVA DE PAGO (TERRENO)</item>
+        <item>CESANTE (TERRENO)</item>
+    </string-array>
+    <string-array name="opcionesMutualistaContactoInDirecto">
+        <item>MENSAJE A TERCEROS (TERRENO)</item>
+        <item>SOCIO FUERA DEL PAIS (TERRENO)</item>
+        <item>SOCIO FALLECIDO (TERRENO)</item>
+        <item>NOTIFICACION A TERCEROS (TERRENO)</item>
+    </string-array>
+    <string-array name="opcionesMutualistaVueltaVisita">
+        <item>NOTIFICACION BAJO PUERTA (TERRENO)</item>
+        <item>NOTIFICACION EN DOMICILIO (TERRENO)</item>
+        <item>NOTIFICACION EN TRABAJO (TERRENO)</item>
+        <item>NO HAY NADIE (TERRENO)</item>
+    </string-array>
+    <string-array name="opcionesMutualistaVirtual">
+        <item>RESCATE DE DATOS (TERRENO)</item>
+    </string-array>
+    <string-array name="opcionesMutualistaRezago">
+        <item>NO CONOCEN A TITULAR (TERRENO)</item>
+        <item>DIRECCION INCORRECTA (TERRENO)</item>
+        <item>YA NO VIVE AHI (TERRENO)</item>
+        <item>ZONA PELIGROSA / DIFICIL ACCESO (TERRENO)</item>
+        <item>NO LO CONOCEN EN EL SECTOR (TERRENO)</item>
+        <item>DIRECCION INCOMPLETA (TERRENO)</item>
+        <item>DIRECCION NO EXISTE (TERRENO)</item>
+        <item>NO CONOCEN A TITULAR (TERRENO)</item>
+        <item>LUGAR DESAHABITADO (TERRENO)</item>
+    </string-array>
+
+
+
+    <string-array name="opcionesGestionDiners">
+        <item>Cont. Sin Arreglo Definitivo</item>
+        <item>ILOCALIZABLE</item>
+    </string-array>
+    <string-array name="opcionescontSinArregloDefinitivo">
+        <item>Sin Arreglo Domicilio</item>
+    </string-array>
+    <string-array name="opcionesIlocalizable">
+        <item>Ilocalizable Domicilio</item>
+    </string-array>
+    <string-array name="opcionesGestionCampo">
+        <item>NO SE REALIZA VISITA</item>
+        <item>CONTACTO DIRECTO</item>
+        <item>CONTACTO INDIRECTO</item>
+        <item>NO CONTACTADO</item>
+    </string-array>
+    <string-array name="opcionesNoSeRealizaVisita">
+        <item>DIRECTORA NO ASISTE A GESTION</item>
+        <item>GESTION SUSPENDIDA POR YANBAL</item>
+    </string-array>
+    <string-array name="opcionesContactoDirecto">
+        <item>CNS GASTO EL DINERO RECAUDADO</item>
+        <item>ENTREGO DINERO A DIRECTORA</item>
+        <item>CARTA ENTREGADA A TITULAR</item>
+        <item>COMPROMISO DE  PAGO</item>
+        <item>NO DESEA RECIBIR CARTA/ BAJO LA PUERTA</item>
+        <item>CLIENTE FINAL NO PAGA</item>
+        <item>NO REALIZO PEDIDO</item>
+        <item>CODIGO UTILIZADO POR TERCERO</item>
+        <item>RENUENTE AL PAGO</item>
+        <item>NO PAGA POR MOTIVOS DE FUERZA MAYOR</item>
+    </string-array>
+    <string-array name="opcionesContactoIndirecto">
+        <item>COMPROMISO DE PAGO INDIRECTO</item>
+        <item>CARTA ENTREGADA A TERCERO</item>
+        <item>NO DESEA RECIBIR CARTA/ BAJO LA PUERTA</item>
+        <item>CARTA DEVUELTA TITULAR FALLECIDO</item>
+    </string-array>
+    <string-array name="opcionesNoContactado">
+        <item>DIRECCION ERRADA</item>
+        <item>NO VIVE EN DIRECCION</item>
+        <item>CARTA BAJO LA PUERTA</item>
+        <item>CARTA DEVUELTA ZONA PELIGROSA</item>
+        <item>NO LA CONOCEN EN EL SECTOR</item>
+        <item>SIN COBERTURA EN EL SECTOR</item>
+    </string-array>
+
+
+    <string-array name="opcionesAccion">
+        <item>CONTACTO DIRECTO T</item>
+        <item>CONTACTO INDIRECTO T</item>
+        <item>NO LOCALIZADOS T</item>
+        <item>NUEVA VISITA T</item>
+        <item>REZAGO TERRENO T</item>
+    </string-array>
+    <string-array name="opcionesRespuestaContactoDirecto">
+        <item>COMPROMISO DE PAGO</item>
+        <item>NEGATIVA DE PAGO</item>
+        <item>PAGO REALIZADO CON DOMICILIARIO</item>
+        <item>PAGO REALIZADO CENTRO AUTORIZADO</item>
+        <item>POSTERGA PAGO</item>
+        <item>RENUENTE</item>
+        <item>FALTA DOCUMENTOS</item>
+        <item>ENTREGA NOTIFICACION</item>
+        <item>FIRMA NOTIFICACION</item>
+        <item>ACUERDO REFINANCIAMIENTO</item>
+        <item>REFINANCIAMIENTO FIRMADO</item>
+        <item>NUEVA DIRECCION</item>
+    </string-array>
+    <string-array name="opcionesRespuestContactoIndirecto">
+        <item>ENTREGA NOTIFICACION</item>
+        <item>COMPROMISO DE PAGO</item>
+        <item>NEGATIVA DE PAGO</item>
+        <item>PAGO REALIZADO CON DOMICILIARIO</item>
+        <item>PAGO REALIZADO CENTRO AUTORIZADO</item>
+        <item>POSTERGA PAGO</item>
+        <item>VOLVER A VISITAR</item>
+    </string-array>
+    <string-array name="opcionesRespuestNoLocalizados">
+        <item>NUEVA INFORMACION</item>
+        <item>NO ENTREGA NOTIFICACION</item>
+    </string-array>
+    <string-array name="opcionesRespuestNuevaVisita">
+        <item>VOLVER A VISITAR</item>
+    </string-array>
+    <string-array name="opcionesRespuestRezagoInicial">
+        <item>DIRECCION INSUFICIENTE</item>
+        <item>SIN COBERTURA</item>
+        <item>ZONA PELIGROSA</item>
+    </string-array>
+    <string-array name="opcionesRespuestRezagoTerreno">
+        <item>DIRECCION INSUFICIENTE</item>
+        <item>SIN COBERTURA</item>
+        <item>ZONA PELIGROSA</item>
+        <item>FALLECIDO</item>
+        <item>DIRECCION INCORRECTA</item>
+    </string-array>
+
+    <string-array name="opcionGestion">
+        <item>ENTREGADO</item>
+        <item>DIRECCION LOCALIZADA</item>
+        <item>REZAGO INICIAL</item>
+        <item>REZAGO TERRENO</item>
+    </string-array>
+
+    <string-array name="opcionEntregada">
+        <item>BUZON</item>
+        <item>BAJO PUERTA</item>
+        <item>EMPLEADO (A)</item>
+        <item>SECRETARIA</item>
+        <item>GUARDIA</item>
+        <item>VECINO (A)</item>
+        <item>RECEPCION</item>
+        <item>TITULAR</item>
+        <item>FAMILIAR</item>
+        <item>ESPOSO (A)</item>
+        <item>CONSERJE</item>
+        <item>COMPAÑERO DE TRABAJO</item>
+        <item>PADRES/HIJOS</item>
+    </string-array>
+
+    <string-array name="opcionDireccionLocalizada">
+        <item>NO HAY QUIEN RECIBA</item>
+        <item>NO DESEA RECIBIR</item>
+        <item>NO LE CONOCEN</item>
+        <item>DE VIAJE / VACACIONES</item>
+    </string-array>
+    <string-array name="opcionRezagoTerreno">
+        <item>DIRECCION INSUFICIENTE</item>
+        <item>SIN COBERTURA</item>
+        <item>ZONA PELIGROSA</item>
+        <item>FALLECIDO</item>
+        <item>DIRECCION INCORRECTA</item>
+    </string-array>
+
+
+</resources>

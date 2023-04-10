@@ -1,0 +1,318 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/imagenGescom"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="false"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_toRightOf="@+id/imagenGescom"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID ASIG:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/idObligacionClienteAsig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1094899"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/idObligacionCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1094899"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cédula:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtcedulaDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1094899"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombres:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtnombresDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cristian David Henao"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total deuda:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtdeudaDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cartera:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtcartera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asignación:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtasignacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad mora:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtedadmora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abonos realizados:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtabonosrealizados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calificación de Riesgo:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtcalificacionRiesgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Primer pedido:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtprimerpedido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección P:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtdireccion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección S:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtdireccion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección Ref:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtreferencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="311358639"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/imageFlechaDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GESTIONAR"
+                android:textColor="#ffff"
+                android:background="@color/colorGeneral"
+                android:layout_weight="0.5"
+                android:onClick="onClick"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/idImagenGescom"
+            android:layout_marginTop="11dp" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

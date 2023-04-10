@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opcionesDirecto">
+        <item>TITULAR</item>
+    </string-array>
+
+    <string-array name="opcionesInDirecto">
+        <item>ESPOSO (A)</item>
+        <item>PADRES/HIJOS</item>
+        <item>FAMILIAR</item>
+        <item>EMPLEADO (A)</item>
+        <item>SECRETARIA</item>
+        <item>GUARDIA</item>
+        <item>VECINO (A)</item>
+        <item>RECEPCION</item>
+        <item>CONSERJE</item>
+        <item>COMPAÑERO DE TRABAJO</item>
+    </string-array>
+
+    <string-array name="opcionesNoLocalizado">
+        <item>CAMBIO DE DIRECCION</item>
+        <item>CAMBIO DE TRABAJO</item>
+        <item>CAMBIO DE CIUDAD</item>
+        <item>NO LE CONOCEN</item>
+    </string-array>
+
+    <string-array name="opcionesNuevaVisita">
+        <item>BUZON</item>
+        <item>BAJO PUERTA</item>
+        <item>NO HAY QUIEN RECIBA</item>
+        <item>NO DESEA</item>
+        <item>DE VIAJE / VACACIONES</item>
+    </string-array>
+
+    <string-array name="opcionesRezagoTerreno">
+        <item>-</item>
+    </string-array>
+
+    <string-array name="opcionesNoRealizaVisitas">
+        <item>-</item>
+    </string-array>
+    <string-array name="opcionesNoConta">
+        <item>-</item>
+    </string-array>
+
+</resources>
